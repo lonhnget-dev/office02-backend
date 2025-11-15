@@ -71,3 +71,5 @@ app.put("/doc/:id", async (req, res) => {
     res.status(500).json({ message: "❌ Failed to update document" });
   }
 });
+
+module.exports = app;
